@@ -15,6 +15,7 @@ ul {
 }
 
 
+
 h2,
 h3,
 a {
@@ -45,12 +46,12 @@ a {
 }
 
 .main-nav a {
-	color: #34495e;
+	color: #cbd7e4;
 	font-size: .99em;
 }
 
 .main-nav a:hover {
-	color: #718daa;
+	color: #db912f;
 }
 
 
