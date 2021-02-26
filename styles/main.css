@@ -101,3 +101,16 @@ a {
 	}
 
 }
+
+#row {
+display:inline-block;
+background-color: dimgrey;
+border: px;
+
+}
+
+.box {
+	display:inline-block;
+	width: 30%;
+	height: auto;
+}
