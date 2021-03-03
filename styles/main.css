@@ -126,6 +126,7 @@ margin: 1em;
 	font-size: x-large;
 }
 
+
 #dog{
 	display:inline-block;
 	width: 30%;
@@ -144,4 +145,15 @@ margin: 1em;
 	vertical-align: left;
 	padding: 2%;
 	color: lightsalmon;
+}
+
+.videos{
+	display:inline-block;
+	width: 35%;
+	height: auto;
+	text-align: left;
+	vertical-align: left;
+	padding: 2%;
+	color: lightsalmon;
+	font-size: x-large;
 }
