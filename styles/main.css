@@ -4,9 +4,7 @@
 }
 body {
 	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
+
 }
 ul {
   margin: 0;
@@ -70,14 +68,8 @@ a {
 }
 
 
-/* ================================= 
-  Media Queries
-==================================== */
 
-
-
-
-@media (min-width: 769px) {
+@media (min-width: 7px) {
 	.header,
 	.main-nav {
 		display: flex;
@@ -101,16 +93,43 @@ a {
 	}
 
 }
+body{background-color: rgb(46, 44, 44);}
 
 #row {
 display:inline-block;
 background-color: dimgrey;
-border: px;
-
+border: 3px solid lightsalmon;
+text-align: left;
+margin: 1em;
 }
 
-.box {
+.box{
+	display:inline-block;
+	width: 60%;
+	height: auto;
+	text-align: center;
+	vertical-align: top;
+	padding: 2%;
+	color: lightsalmon;
+	font-size: x-large;
+}
+
+#dog{
 	display:inline-block;
 	width: 30%;
 	height: auto;
+	text-align: center;
+	vertical-align: left;
+	padding: 2%;
+	color: lightsalmon;
+}
+
+#comwork{
+	display:inline-block;
+	width: 35%;
+	height: auto;
+	text-align: center;
+	vertical-align: left;
+	padding: 2%;
+	color: lightsalmon;
 }
