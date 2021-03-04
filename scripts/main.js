@@ -3,4 +3,3 @@ function myFunction() {
     element.classList.toggle("light-mode");
 
 }
-
