@@ -1,18 +1,20 @@
+/*inspiration from Sam Norton*/
 
-* {
-	box-sizing: border-box;
-}
+
+/* Font for Website */
 body {
 	font-family: 'Montserrat', sans-serif;
 
 }
+
+/*Margin Padding for ul */
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-
+/* colour assigned for all headers*/
 h1,
 h2,
 h3,
@@ -20,16 +22,18 @@ a {
 	color: #da8d46;
 }
 
+/*removing underline from file links*/
 a {
 	text-decoration: none;
 }
 
-
+/*sizing for logo in the top left of website*/
 .logo {
 	margin: 0;
 	font-size: 1.45em;
 }
 
+/*Nav bar being made*/
 .main-nav {
 	margin-top: 5px;
 
@@ -46,7 +50,7 @@ a {
 	color: #cbd7e4;
 	font-size: .99em;
 }
-
+/*hover colour*/
 .main-nav a:hover {
 	color: #db912f;
 }
@@ -84,16 +88,18 @@ a {
 
 
 
-
+/*background colour*/
 body{
 	background-color: rgb(46, 44, 44);
 }
 
+/* background colour with buttom toggle */
 .light-mode {
 	background-color: gainsboro;
 	
 }
 
+/*code for boxes (size, alignment, colour) */
 #row {
 display:inline-block;
 background-color: dimgrey;
@@ -126,7 +132,7 @@ margin: 1em;
 
 #comwork{
 	display:inline-block;
-	width: 35%;
+	width: 30%;
 	height: auto;
 	text-align: center;
 	vertical-align: left;
@@ -136,7 +142,7 @@ margin: 1em;
 
 .videos{
 	display:inline-block;
-	width: 35%;
+	width: 30%;
 	height: auto;
 	text-align: left;
 	vertical-align: left;
@@ -145,6 +151,7 @@ margin: 1em;
 	font-size: x-large;
 }
 
+/* css for java button to change theme */
 .button {
 	background-color: lightsalmon;
 	border: none;
