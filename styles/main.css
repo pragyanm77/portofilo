@@ -151,7 +151,7 @@ margin: 1em;
 	font-size: x-large;
 }
 
-/* css for java button to change theme */
+/* css for button to change theme */
 .button {
 	background-color: lightsalmon;
 	border: none;
@@ -163,6 +163,22 @@ margin: 1em;
 	margin: 10px 640px;
 	cursor: pointer;
 	border-radius: 10px;
-	
-
   }
+
+/* css for buttons funcitons-x*/
+.functionX {
+	padding: 1em;
+	width: 33%;
+	height: 4.5em;
+	background-color:pink;
+	font-size: 20px;
+}
+
+/* css for buttons functions-y*/
+.functionY {
+	padding: 1em;
+	width: 33%;
+	height: 4.5em;
+	background-color: lightblue;
+	font-size: 20px;
+}
