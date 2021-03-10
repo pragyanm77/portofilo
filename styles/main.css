@@ -167,18 +167,24 @@ margin: 1em;
 
 /* css for buttons funcitons-x*/
 .functionX {
-	padding: 1em;
-	width: 33%;
+	margin: 0.22cm 0.60cm;
+	padding: 35px;
+	width: 30%;
 	height: 4.5em;
 	background-color:pink;
 	font-size: 20px;
+	border: orange solid 0.12cm;
+	border-radius: 6px;
 }
 
 /* css for buttons functions-y*/
 .functionY {
-	padding: 1em;
-	width: 33%;
+	margin: 0.22cm 0.60cm;
+	padding: 35px;
+	width: 30%;
 	height: 4.5em;
 	background-color: lightblue;
 	font-size: 20px;
+	border: orange solid 0.12cm;
+	border-radius: 6px;
 }
