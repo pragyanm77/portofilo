@@ -6,10 +6,23 @@ function myFunction() {
 
 }
 
-//Button for Function 1//
-function function1() {
-    alert('Something very cool coming soon (Assignment A)')
+//Button for Function 1 (larger number)//
+function largernumber() {
+    let num1 = paresInt(promt("Insert a NUMBER"));
+    let num2 = paresInt(promt("Insert a another NUMBER"));
+
+    if (num1>num2) {
+      document.getElementById("button1").innerHTML=(num1 + "is bigger")
+    }
+    else if (num1 < num2){
+      document.getElementById("button1").innerHTML=(num2 + "is bigger")
+    }
+    else if (num1 === num2){
+      document.getElementById("button1").innerHTML=("Nice try, its the same number. Try again")
     } 
+    else{
+      document.getElementById("button1").innerHTML=("Put some numbers in and Try again")
+    }
   
 //Button for Function 2//
   function function2() {
