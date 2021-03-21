@@ -8,31 +8,58 @@ function myFunction() {
 
 //Button for Function 1 (larger number)//
 function largernumber() {
-    let num1 = paresInt(promt("Insert a NUMBER"));
-    let num2 = paresInt(promt("Insert a another NUMBER"));
+    let num1 = parseInt(prompt("Insert a NUMBER"));
+    let num2 = parseInt(prompt("Insert a another NUMBER"));
 
     if (num1>num2) {
-      document.getElementById("button1").innerHTML=(num1 + "is bigger")
+      document.getElementById("button1").innerHTML= num1 + " is bigger";
     }
     else if (num1 < num2){
-      document.getElementById("button1").innerHTML=(num2 + "is bigger")
+      document.getElementById("button1").innerHTML= num2 + " is bigger";
     }
     else if (num1 === num2){
-      document.getElementById("button1").innerHTML=("Nice try, its the same number. Try again")
+      document.getElementById("button1").innerHTML="Nice try, its the same number. Try again";
     } 
     else{
-      document.getElementById("button1").innerHTML=("Put some numbers in and Try again")
+      document.getElementById("button1").innerHTML="Put some numbers in and Try again";
     }
-  
-//Button for Function 2//
-  function function2() {
-    alert('Something very cool coming soon (Assignment B)')
-    } 
+}
 
-//Button for Function 3//
-  function function3() {
-    alert('Something very cool coming soon (Assignment C)')
-    } 
+//Button for Function 2 (sign of product)//
+  function signOfProduct() {
+    let num1 = parseInt(prompt("Insert a NUMBER"));
+    let num2 = parseInt(prompt("Insert a another NUMBER"));
+    let num3 = parseInt(prompt("Insert one more NUMBER"));
+
+    if (num1*num2*num3 < 0){
+      document.getElementById("button2").innerHTML = " The product will be negative (-)"
+    }
+    else if (num1*num2*num3 > 0){
+      document.getElementById("button2").innerHTML = " The product will be positive (+)"
+    }
+    else if (num1*num2*num3 == 0){
+      document.getElementById("button2").innerHTML = " The product is 0 --- neither positive nor negative"
+    }
+  } 
+
+//Button for Function 3 (number sort)//
+  function threeNumberSort() {
+    let num1 = parseInt(prompt("Insert a NUMBER"));
+    let num2 = parseInt(prompt("Insert a another NUMBER"));
+    let num3 = parseInt(prompt("Insert one more NUMBER"));
+    
+    if (num1>num2>num3){
+      document.getElementById("button3").innerHTML = num1, num2,  num3
+    }
+    else if (num1*num2*num3 > 0){
+      document.getElementById("button2").innerHTML = " The product will be positive (+)"
+    }
+    else if (num1*num2*num3 == 0){
+      document.getElementById("button2").innerHTML = " The product is 0 --- neither positive nor negative"
+    }
+  } 
+
+  }
   
 //Button for Function 4//
   function function4() {
