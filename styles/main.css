@@ -90,14 +90,15 @@ a {
 
 /*background colour*/
 body{
-	background-color: rgb(46, 44, 44);
+	background-color: rgb(61, 54, 54);
 }
 
 /* background colour with buttom toggle */
 .light-mode {
-	background-color: gainsboro;
-	
+	background-color: rgb(255, 255, 255);
+
 }
+
 
 /*code for boxes (size, alignment, colour) */
 #row {
@@ -163,8 +164,7 @@ margin: 1em;
 	margin: 10px 640px;
 	cursor: pointer;
 	border-radius: 10px;
-  }
-
+}
 /* css for buttons funcitons-x*/
 .functionX {
 	margin: 0.22cm 0.60cm;
