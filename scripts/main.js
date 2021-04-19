@@ -158,7 +158,26 @@ function largernumber() {
   } 
 
 
-//Button for Function 9//
-  function function9() {
-    alert('Something very cool coming soon (Assignment I)')
+//Button for Function 9 (encryptor)//
+  function encryptor() {
+    let plaintext = prompt("Enter your plaintext message:"); // enter a plain text which will be encrypted
+    let bintext = "";
+    for (i = 0; i < plaintext.length; i++) { //forloop going throught each character one by one
+    bintext += plaintext[i].charCodeAt(0).toString(2) + " "; //each letter is being covnvered to binary using charcode, 2 setting it to base 2
+  }
+  let ciphertext= bintext.split("").reverse().join(""); // the converted text is now being split then reversed and then joined back again
+    document.getElementById("button10").innerHTML= ciphertext // the encrypted code is not displayed on the button
+  }
+
+  //Button for Function 10 (decryptor)//
+  function decryptor() {
+    let plaintext = prompt("Enter your plaintext message:"); // enter the encrypted text
+    let reversetext= plaintext.split("").reverse().join(""); // reverse the encypted code by splitting, reversing and then rejoining
+    let bintext = reversetext.split(" ")  // new varible for the reversed text to be split so there is now binary text which can go throught the loop
+    let deciphertext= [];
+    for (i = 0; i < bintext.length; i++) { // forloop going through each charater 
+      deciphertext.push(String.fromCharCode(parseInt(bintext[i],2))); // .push lets us know the new lenght which is then turned from binary to plaintext. using the string.fromcharcode we convert it to plaintext (2 tells progarm that the base is 2)  
+    }
+    let final= deciphertext.join(""); //join the text
+    document.getElementById("button11").innerHTML= final // print final decoded message on button
   }
