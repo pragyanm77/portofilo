@@ -194,8 +194,20 @@ margin: 1em;
 	margin: 0.22cm 0.60cm;
 	padding: 35px;
 	width: 46.5%;
-	height: 10em;
+	height: 4.5em;
 	background-color: rgb(187, 238, 158);
+	font-size: 20px;
+	border: orange solid 0.12cm;
+	border-radius: 6px;
+}
+
+/* css for buttons functions-p*/
+.functionP {
+	margin: 0.22cm 0.60cm;
+	padding: 35px;
+	width: 97%;
+	height: 30em;
+	background-color: rgb(255, 255, 255);
 	font-size: 20px;
 	border: orange solid 0.12cm;
 	border-radius: 6px;
